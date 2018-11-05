@@ -36,6 +36,28 @@ header nav {
 }
 
 nav span {
-    display: inline-block;
-    padding: 20px 10px;
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+
+* {
+  border: solid 1px black;
+}
+
+div.container {
+  display: flex;
+  border: solid 1px black;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 }
