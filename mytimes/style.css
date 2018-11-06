@@ -40,25 +40,26 @@ nav span {
   padding: 20px 10px;
 }
 
-div.content {
+.content {
   display: flex;
-  position: relative;
+  width: 1240px;
+  padding-top: 120px;
+  justify-content: space-between;
 }
 
 .column.large {
   width: 630px;
-  padding: 120px 40px 0 0
+  display: inline-block;
 }
 
 .column.medium {
   width: 300px;
-  padding: 120px 40px 0 0
+  display: inline-block;
 }
 
 .column.small {
   width: 240px;
-  padding: 120px 40px 0 0
-
+  display: inline-block;
 }
 
 div, article, span {
