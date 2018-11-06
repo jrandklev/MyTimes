@@ -40,24 +40,27 @@ nav span {
   padding: 20px 10px;
 }
 
-
-* {
-  border: solid 1px black;
-}
-
-div.container {
+div.content {
   display: flex;
-  border: solid 1px black;
+  position: relative;
 }
 
 .column.large {
   width: 630px;
+  padding: 120px 40px 0 0
 }
 
 .column.medium {
   width: 300px;
+  padding: 120px 40px 0 0
 }
 
 .column.small {
   width: 240px;
+  padding: 120px 40px 0 0
+
+}
+
+div, article, span {
+  border: solid 1px black;
 }
