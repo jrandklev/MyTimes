@@ -68,6 +68,20 @@ div, article, span {
   display: inline-block;
 }
 
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.otherstories{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 300px;
+}
+
 p {
   font-family: Georgia;
   font-size: 17px;
@@ -79,6 +93,7 @@ h1 {
   font-weight: bold;
   font-size: 30px;
   color: white;
+  text-align: center;
 }
 
 .mainimage h1 {
@@ -86,9 +101,15 @@ h1 {
   font-weight: bold;
   font-size: 40px;
   color: white;
+  text-align: left;
+}
+
+article {
+  display: block;
 }
 
 h2 {
+  display: block;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
