@@ -40,6 +40,12 @@ nav span {
   padding: 20px 10px;
 }
 
+<!--MAIN CONTENT-->
+
+div, article, span {
+  border: solid 1px black;
+}
+
 .content {
   display: flex;
   width: 1240px;
@@ -62,6 +68,49 @@ nav span {
   display: inline-block;
 }
 
-div, article, span {
-  border: solid 1px black;
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+h1 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.mainimage h1 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+h2 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+}
+
+.mainimage {
+  background-image: url("./resources/img-story-main.png");
+  height: 300px;
+}
+
+.image1 {
+  background-image: url("./resources/img-story-1.png");
+  height: 300px;
+}
+
+.image2 {
+  background-image: url("./resources/img-story-2.png");
+  height: 300px;
+}
+
+.image3 {
+  background-image: url("./resources/img-story-3.png");
+  height: 300px;
 }
